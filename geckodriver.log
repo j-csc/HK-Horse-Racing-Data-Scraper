@@ -452,3 +452,792 @@ Exiting due to channel error.
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1577850241816	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileJR6fDJ"
+1577850242391	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577850242392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577850242392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577850244390	Marionette	INFO	Listening on port 51504
+1577850244491	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577850381522	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileD8927F"
+1577850382025	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577850382026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577850382026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577850384315	Marionette	INFO	Listening on port 52246
+1577850384392	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577850668389	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile8TihdJ"
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+1577850669573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577850669573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577850669573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577850671481	Marionette	INFO	Listening on port 53700
+1577850671558	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 79172, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+1577850773719	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileW4kOOQ"
+1577850774226	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577850774227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577850774227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577850776429	Marionette	INFO	Listening on port 54296
+1577850776480	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577850782583	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://racing.hkjc.com/racing/common/english/js/global.js, line 1505: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577850828109	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile8xrm39"
+1577850828765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577850828766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577850828766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: https://common.hkjc.com/corporate/scripts/jquery.jsonp-2.1.3.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+1577850830900	Marionette	INFO	Listening on port 54656
+1577850830961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 80600, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+1577850858907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileqNKmyH"
+1577850859397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577850859397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577850859397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577850861502	Marionette	INFO	Listening on port 54883
+1577850861562	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577851070337	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile4ko18Z"
+JavaScript error: https://common.hkjc.com/corporate/scripts/jquery.jsonp-2.1.3.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+1577851071443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577851071443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577851071443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577851073401	Marionette	INFO	Listening on port 55977
+1577851073503	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577858601728	Marionette	INFO	Stopped listening on port 55978
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 84651, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 84922, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577858828552	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile0UpZgl"
+1577858829410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577858829411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577858829411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577858834393	Marionette	INFO	Listening on port 59449
+1577858834415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577858890583	Marionette	INFO	Stopped listening on port 59449
+JavaScript error: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 63: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 85: TypeError: u.location is null
+1577858899117	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileq6Wk3l"
+1577858900252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577858900253	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577858900253	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577858904567	Marionette	INFO	Listening on port 59927
+1577858904646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577858946456	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577858967619	Marionette	INFO	Stopped listening on port 59927
+1577859330654	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileWaHusD"
+1577859331642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577859331642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577859331642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577859334248	Marionette	INFO	Listening on port 62181
+1577859334328	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/common/english/js/global.js, line 1505: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript error: https://common.hkjc.com/corporate/scripts/jquery.jsonp-2.1.3.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+1577859430316	Marionette	INFO	Stopped listening on port 62181
+1577859430533	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilefUdHXb"
+1577859431532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577859431533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577859431533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577859433716	Marionette	INFO	Listening on port 62778
+1577859433817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577859500502	Marionette	INFO	Stopped listening on port 62778
+1577859504744	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileiyq4vx"
+1577859505224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577859505225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577859505225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577859507965	Marionette	INFO	Listening on port 63228
+1577859508014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577859569594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilewItKQn"
+JavaScript error: https://common.hkjc.com/corporate/scripts/jquery.jsonp-2.1.3.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+1577859570471	Marionette	INFO	Stopped listening on port 63228
+1577859570597	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577859570597	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577859570597	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577859572796	Marionette	INFO	Listening on port 63634
+1577859572852	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 249: TypeError: this.highlighterEnv is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 329: TypeError: this._refMap is null
+1577860027866	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileTLe0bX"
+1577860028341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860028341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860028341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860031662	Marionette	INFO	Listening on port 49608
+1577860031674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577860093801	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile7apIXB"
+1577860094594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860094595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860094595	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860098347	Marionette	INFO	Listening on port 50042
+1577860098391	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/common/english/js/global.js, line 1505: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+1577860156848	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileVxVEyx"
+1577860156852	Marionette	INFO	Stopped listening on port 50042
+1577860157414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860157414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860157414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860159871	Marionette	INFO	Listening on port 50525
+1577860159937	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+1577860557377	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile8JHoZS"
+1577860558281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860558282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860558282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860560829	Marionette	INFO	Listening on port 52961
+1577860560871	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn1.child1/context19' can't be sent as the connection is closed."
+1577860566912	Marionette	INFO	Stopped listening on port 63634
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577860607877	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilexWT4r1"
+1577860608358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860608358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860608358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860610749	Marionette	INFO	Listening on port 53340
+1577860610834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577860615385	Marionette	INFO	Stopped listening on port 52961
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 400: Error: OS.File has been shut down. Rejecting post to stat
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577860783800	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileQmh3Hq"
+1577860784407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860784407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860784407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860787369	Marionette	INFO	Listening on port 54250
+1577860787388	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577860865484	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilewhVzVN"
+1577860865964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860865964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860865965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860868577	Marionette	INFO	Listening on port 54773
+1577860868670	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577860969185	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile0VJlO4"
+1577860969764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577860969765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577860969765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577860972442	Marionette	INFO	Listening on port 55360
+1577860972457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577860974809	Marionette	INFO	Stopped listening on port 54773
+JavaScript error: https://common.hkjc.com/corporate/scripts/jquery.jsonp-2.1.3.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+1577860976397	Marionette	INFO	Stopped listening on port 54250
+1577860978749	Marionette	INFO	Stopped listening on port 50525
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577862292103	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileAKwbng"
+1577862292700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577862292700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577862292700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577862295949	Marionette	INFO	Listening on port 62225
+1577862296013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577862332914	Marionette	INFO	Stopped listening on port 62225
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+1577862447224	Marionette	INFO	Stopped listening on port 55360
+1577862769132	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilelW6zpD"
+1577862769601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577862769601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577862769602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577862773022	Marionette	INFO	Listening on port 64799
+1577862773047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577862876040	Marionette	INFO	Stopped listening on port 64799
+1577862996089	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileRE51fp"
+1577862996590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577862996590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577862996590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577862998806	Marionette	INFO	Listening on port 49685
+1577862998878	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577863522080	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileUeGK6y"
+1577863523035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577863523035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577863523035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577863528053	Marionette	INFO	Listening on port 52290
+1577863528153	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577863640191	Marionette	INFO	Stopped listening on port 52290
+1577863644893	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilew7VWUP"
+1577863645363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577863645363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577863645363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577863648404	Marionette	INFO	Listening on port 52952
+1577863648503	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577863689805	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofiler438SD"
+1577863690446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577863690446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577863690446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577863693244	Marionette	INFO	Stopped listening on port 52952
+1577863693606	Marionette	INFO	Listening on port 53247
+1577863693697	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577863725505	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1577863757947	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilebSJWaJ"
+1577863758105	Marionette	INFO	Stopped listening on port 53247
+1577863758527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577863758527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577863758527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577863760418	Marionette	INFO	Listening on port 53675
+1577863760428	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577863904772	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileBQBJkS"
+1577863905302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577863905303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577863905303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577863907530	Marionette	INFO	Listening on port 54392
+1577863907550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577863929612	Marionette	INFO	Stopped listening on port 54392
+1577864082454	Marionette	INFO	Stopped listening on port 53340
+1577864475820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile2Fy8dt"
+1577864476334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577864476334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577864476334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577864479065	Marionette	INFO	Listening on port 57236
+1577864479120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577864558325	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileo0xYxT"
+1577864559012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577864559012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577864559012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577864561431	Marionette	INFO	Listening on port 57731
+1577864561503	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 39769, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+1577864562867	Marionette	INFO	Stopped listening on port 57236
+1577864630318	Marionette	INFO	Stopped listening on port 57731
+1577864639806	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileVEco6o"
+1577864640659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577864640659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577864640660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577864643738	Marionette	INFO	Listening on port 58196
+1577864643819	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577864726980	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile36Ojuq"
+1577864727748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577864727748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577864727748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577864728690	Marionette	INFO	Stopped listening on port 58196
+1577864730667	Marionette	INFO	Listening on port 58727
+1577864730691	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 237: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Component returned failure code: 0x8057000a (NS_ERROR_XPC_BAD_CONVERT_NATIVE) [xpcIJSWeakReference.get]
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577864920314	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileca2SSy"
+1577864920836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577864920837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577864920837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577864923339	Marionette	INFO	Listening on port 59738
+1577864923406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 43720, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+1577865078865	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilerWqPiA"
+1577865079671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577865079672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577865079672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577865082582	Marionette	INFO	Listening on port 60632
+1577865082656	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1577865240394	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofile3ufcWS"
+1577865240989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577865240989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577865240989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577865243219	Marionette	INFO	Listening on port 61610
+1577865243276	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 237: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Component returned failure code: 0x8057000a (NS_ERROR_XPC_BAD_CONVERT_NATIVE) [xpcIJSWeakReference.get]
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+console.error: BroadcastService: 
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1577865463501	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilemVDzl0"
+1577865464023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577865464024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577865464024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577865466384	Marionette	INFO	Listening on port 62832
+1577865466474	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577865588053	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofilegBJcwZ"
+1577865588621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577865588622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577865588622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577865591522	Marionette	INFO	Listening on port 63561
+1577865591560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577871861914	Marionette	INFO	Stopped listening on port 63561
+1577871879265	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileMavqgi"
+1577871880418	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577871880418	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577871880418	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577871882491	Marionette	INFO	Stopped listening on port 62832
+1577871882929	Marionette	INFO	Listening on port 49761
+1577871882984	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+1577871919696	Marionette	INFO	Stopped listening on port 49761
+1577872203561	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileMSKAI8"
+1577872204087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577872204087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577872204087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577872206191	Marionette	INFO	Listening on port 51415
+1577872206232	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 56553, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1577872790456	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileij3Kv3"
+1577872790985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577872790985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577872790985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577872793349	Marionette	INFO	Listening on port 54351
+1577872793415	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577872798486	Marionette	INFO	Stopped listening on port 54351
+1577872823349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileFB6EHo"
+1577872823866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577872823866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577872823866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577872825791	Marionette	INFO	Listening on port 54561
+1577872825813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript error: resource://gre/modules/ActorManagerChild.jsm, line 237: NS_ERROR_XPC_BAD_CONVERT_NATIVE: Component returned failure code: 0x8057000a (NS_ERROR_XPC_BAD_CONVERT_NATIVE) [xpcIJSWeakReference.get]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221577836811718%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1577872976386	Marionette	INFO	Stopped listening on port 54561
+1577873085260	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xd/hbcb50hx7kg5vfcymx2n4r340000gn/T/rust_mozprofileAkkiFn"
+1577873086509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577873086510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577873086510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577873089858	Marionette	INFO	Listening on port 55884
+1577873089887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/Info/Scripts/jquery-1.4.1.min.js, line 56: unreachable code after return statement
+JavaScript warning: https://racing.hkjc.com/racing/info/GlobalMenu/English/js/global.js, line 1771: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 64305, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
