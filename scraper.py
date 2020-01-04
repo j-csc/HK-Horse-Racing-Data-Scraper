@@ -57,11 +57,14 @@ same_day_race_link_xpaths = "//div[2]/table/tbody/tr/td/a"
 table_row_xpath = "//div[5]/table/tbody/tr"
 
 count = 0
+race_name = ""
+race_going = ""
+race_type = ""
 
 # Begin grabbing data
 for meet in dates:
   print("Scraping: " + meet)
-  all_race_entries = []
+  all_race_entries = {}
   count += 1
   if os.path.isfile('races' + str(count) + '.csv'):
     continue
@@ -78,18 +81,23 @@ for meet in dates:
 
     if (check_exists_by_xpath(race_name_xpath)):
       tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
-      first_race_entry.append(tempEl.text)
+      race_name = (tempEl.text)
     if (check_exists_by_xpath(race_going_xpath)):
       tempEl = wait.until(EC.presence_of_element_located((By.XPATH,race_going_xpath)))
-      first_race_entry.append(tempEl.text)
+      race_going = (tempEl.text)
     if (check_exists_by_xpath(race_type_xpath)):
       tempEl = wait.until(EC.presence_of_element_located((By.XPATH,race_type_xpath)))
-      first_race_entry.append(tempEl.text)
-    print(first_race_entry)
+      race_type = (tempEl.text)
+
     for row in table_rows:
+      rowEntry = []
+      rowEntry.append(race_name)
+      rowEntry.append(race_going)
+      rowEntry.append(race_type)
       cols = row.find_elements_by_tag_name('td')
       for col in cols:
-        first_race_entry.append(col.text)
+        rowEntry.append(col.text)
+      first_race_entry.append(rowEntry)
     all_race_entries.append(first_race_entry)
     
     # Get other races on same meet
@@ -100,23 +108,28 @@ for meet in dates:
 
       # Scrape 2nd - n
       race_entry = []
+
       if (check_exists_by_xpath(race_name_xpath)):
         tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
-        race_entry.append(tempEl.text)
+        race_name = (tempEl.text)
       if (check_exists_by_xpath(race_going_xpath)):
         tempEl = wait.until(EC.presence_of_element_located((By.XPATH,race_going_xpath)))
-        race_entry.append(tempEl.text)
+        race_going = (tempEl.text)
       if (check_exists_by_xpath(race_type_xpath)):
         tempEl = wait.until(EC.presence_of_element_located((By.XPATH,race_type_xpath)))
-        race_entry.append(tempEl.text)
-
-      print(race_entry)
+        race_type = (tempEl.text)
 
       table_rows = driver.find_elements_by_xpath(table_row_xpath)
+
       for row in table_rows:
+        rowEntry = []
+        rowEntry.append(race_name)
+        rowEntry.append(race_going)
+        rowEntry.append(race_type)
         cols = row.find_elements_by_tag_name('td')
         for col in cols:
-          race_entry.append(col.text)
+          rowEntry.append(col.text)
+        race_entry.append(rowEntry)
       all_race_entries.append(race_entry)
 
     # Save file as csv
