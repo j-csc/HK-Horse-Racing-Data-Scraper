@@ -15,7 +15,7 @@ import os.path
 #starting webdriver
 BASE_URL = "https://racing.hkjc.com/racing/information/English/racing/LocalResults.aspx?RaceDate="
 dates = ["29/12/2019", "26/12/2019", "21/12/2019", "18/12/2019", "15/12/2019", "11/12/2019", "08/12/2019",
- "04/12/2019", "01/12/2019", "27/11/2019", "23/11/2019", "20/11/2019", "17/11/2019", "13/11/2019", "09/11/2019",
+ "04/12/2019", "01/12/2019", "27/11/2019", "23/11/2019", "20/11/2019", "17/11/2019", "09/11/2019",
   "06/11/2019", "03/11/2019", "30/10/2019", "27/10/2019", "23/10/2019", "20/10/2019", "16/10/2019",
    "12/10/2019", "09/10/2019", "01/10/2019", "25/09/2019", "21/09/2019", "15/09/2019", "11/09/2019",
      "01/09/2019", "14/07/2019", "10/07/2019", "07/07/2019", "03/07/2019", "01/07/2019", "26/06/2019", "23/06/2019",
@@ -64,7 +64,8 @@ race_type = ""
 # Begin grabbing data
 for meet in dates:
   print("Scraping: " + meet)
-  all_race_entries = {}
+  race_entry = []
+  internalRaceCount = 1
   count += 1
   if os.path.isfile('races' + str(count) + '.csv'):
     continue
@@ -77,7 +78,6 @@ for meet in dates:
     # Get first race - x columns y rows + race name, going, track type
     tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
     table_rows = tempTableEl
-    first_race_entry = []
 
     if (check_exists_by_xpath(race_name_xpath)):
       tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
@@ -97,18 +97,16 @@ for meet in dates:
       cols = row.find_elements_by_tag_name('td')
       for col in cols:
         rowEntry.append(col.text)
-      first_race_entry.append(rowEntry)
-    all_race_entries.append(first_race_entry)
+      race_entry.append(rowEntry)
     
     # Get other races on same meet
     for same_day_link in same_day_links:
       print("Scraping " + same_day_link)
+      internalRaceCount += 1
       driver.get(same_day_link)
       driver.implicitly_wait(10)
 
       # Scrape 2nd - n
-      race_entry = []
-
       if (check_exists_by_xpath(race_name_xpath)):
         tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
         race_name = (tempEl.text)
@@ -130,11 +128,10 @@ for meet in dates:
         for col in cols:
           rowEntry.append(col.text)
         race_entry.append(rowEntry)
-      all_race_entries.append(race_entry)
-
+        
     # Save file as csv
-    df = pd.DataFrame(all_race_entries)
-    df.head()
+    df = pd.DataFrame(race_entry)
+    print(df.head())
     csv_data = df.to_csv("./races" + str(count) + ".csv", index=False)
     print("Saved " + str(count))
 
