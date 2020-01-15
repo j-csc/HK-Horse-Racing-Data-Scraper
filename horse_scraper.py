@@ -74,6 +74,7 @@ horse_link_xpath = "//p/table/tbody/tr[2]/td/table/tbody"
 driver.implicitly_wait(2)
 
 for i in alphabets:
+  print("Scraping " + i)
   driver.get(alphabet_link + i)
   driver.implicitly_wait(2)
   wait.until(EC.presence_of_element_located((By.XPATH, horse_link_xpath)))
@@ -96,10 +97,15 @@ for i in alphabets:
         total_stakes.append(driver.find_element_by_xpath(total_stakes_xpath))
         no_of_123_starts.append(driver.find_element_by_xpath(no_of_123_starts_xpath))
         no_of_starts_in_past_races.append(driver.find_element_by_xpath(no_of_starts_in_past_races_xpath))
-        trainer.append(driver.find_element_by_xpath(trainer_xpath))
-        owner.append(driver.find_element_by_xpath(owner_xpath))
+        trainer.append(driver.find_element_by_xpath(trainer_xpath).text)
+        owner.append(driver.find_element_by_xpath(owner_xpath).text)
         current_rating.append(driver.find_element_by_xpath(current_rating_xpath))
         start_of_season_rating.append(driver.find_element_by_xpath(start_of_season_rating_xpath))
-        sire.append(driver.find_element_by_xpath(sire_xpath))
+        sire.append(driver.find_element_by_xpath(sire_xpath).text)
         dam.append(driver.find_element_by_xpath(dam_xpath))
         dam_sire.append(driver.find_element_by_xpath(dam_sire_xpath))
+
+data = [{'Name': a, 'Country of Origin & Age': b, 'Colour & Sex': c, 'Import Type': d, 'Season Stakes': e, 'Total Stakes': f, 'Number Of 123 Starts': g, 'Number of Starts In Past Races': h, 'Trainer': i, 'Owner': j, 'Current Rating': k, 'Start Of Season Rating': l, 'Sire': m, 'Dam': n, 'Dam Sire': o } for a, b, c, d, e, f, g, h, i, j, k, l, m, n, o in zip(names, country_of_origin_age, colour_sex,import_type, season_stakes, total_stakes, no_of_starts_in_past_races, no_of_starts_in_past_races, trainer, owner, current_rating, start_of_season_rating, sire, dam, dam_sire)]
+
+with open('horses.json', 'w') as outfile:
+  json.dump(data, outfile)
