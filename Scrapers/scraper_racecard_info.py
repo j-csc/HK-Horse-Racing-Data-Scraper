@@ -12,10 +12,10 @@ from selenium.common.exceptions import WebDriverException
 import pandas as pd
 import os.path
 
+
 #starting webdriver
 BASE_URL = "https://racing.hkjc.com/racing/Info/meeting/RaceCard/chinese/Local/"
 dates = ["2020-07-15",
-
 "2020-07-15",
 "2020-07-12",
 "2020-07-08",
@@ -3070,7 +3070,6 @@ dates = ["2020-07-15",
 "1979-10-03",
 "1979-09-29",
 "1979-09-22"
-
 ]
  
 
