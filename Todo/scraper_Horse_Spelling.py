@@ -26,11 +26,6 @@ dates = ["20300701",
 "20200804",
 "20200805",
 
-         
-
-
-
-
 ]
  
 
@@ -65,13 +60,11 @@ for meet in dates:
   if os.path.isfile('Spelling_' + str(meet) + '.txt'):
     continue
   else:
-    driver.get(BASE_URL + meet + BASE_URL_SUFFIX)
+    # driver.get(BASE_URL + meet + BASE_URL_SUFFIX)
+    driver.get(BASE_URL + meet)
     driver.implicitly_wait(20)
 
     # Get BrandNo, Date, Type, Racecourse/Track, Workouts, Gear
-  #if (check_exists_by_xpath(table_row_xpath)):
-    #tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
-    #table_rows = tempTableEl
 
   if not (check_exists_by_xpath(table_row_xpath)):
     continue
@@ -93,7 +86,6 @@ for meet in dates:
     df = pd.DataFrame(race_entry)
     print(df.head())
     csv_data = df.to_csv("./Spelling_" + str(meet) + ".txt", index=False)
-    #csv_data = df.to_csv("./Daily_Trackwork_" + str(meet) + ".csv", index=False)
     print("Saved " + str(meet))
 
 driver.quit()

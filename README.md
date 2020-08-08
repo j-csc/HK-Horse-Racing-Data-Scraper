@@ -13,3 +13,10 @@ Scrapers:
   1. Horse veterinary records
   2. Penetrometer
   3. Horse info (all)
+  4. Horse roarers
+
+### Todo
+
+Scrapers:
+  1. Racecard
+  2. Racecard info

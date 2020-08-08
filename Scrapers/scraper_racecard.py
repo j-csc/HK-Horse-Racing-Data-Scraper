@@ -64,7 +64,6 @@ def scrape_racecard(dates):
       same_day_links = [x.get_attribute("href") for x in same_day_selel]  
 
       # Get first race - x columns y rows + race name, going, track type
-      #if not (check_exists_by_xpath(table_row_xpath)):
       if not (check_exists_by_xpath(racecard_info_1_xpath)):
         continue
       else:
@@ -80,7 +79,7 @@ def scrape_racecard(dates):
         if (check_exists_by_xpath(reserve_table_row_xpath)):
           tempTableEl2 = wait.until(EC.presence_of_all_elements_located((By.XPATH, reserve_table_row_xpath)))
           reserve_table_rows = tempTableEl2
-
+          
           race_name = 1
           race_standby = "正選"
           for row in table_rows:
@@ -104,78 +103,78 @@ def scrape_racecard(dates):
               reserverowEntry.append(reservecol.text)
             race_entry.append(reserverowEntry)
                     
-        # Get other races on same meet
-        for same_day_link in same_day_links:
-          print("Scraping " + same_day_link)
-          internalRaceCount += 1
-          driver.get(same_day_link)
-          driver.implicitly_wait(10)
+        # # Get other races on same meet
+        # for same_day_link in same_day_links:
+        #   print("Scraping " + same_day_link)
+        #   internalRaceCount += 1
+        #   driver.get(same_day_link)
+        #   driver.implicitly_wait(10)
 
-          # Scrape 2nd - n
-          #if not (check_exists_by_xpath(table_row_xpath)):
-          if not (check_exists_by_xpath(racecard_info_1_xpath)):  
-            continue
-          else:
-            #tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
-            #table_rows = tempTableEl
+        #   # Scrape 2nd - n
+        #   #if not (check_exists_by_xpath(table_row_xpath)):
+        #   if not (check_exists_by_xpath(racecard_info_1_xpath)):  
+        #     continue
+        #   else:
+        #     #tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
+        #     #table_rows = tempTableEl
 
-            #if (check_exists_by_xpath(race_name_xpath)):
-              #tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
-              #race_name = (tempEl.text)
-            if not (check_exists_by_xpath(table_row_xpath)):
-              rowEntry = []
-              rowEntry.append(meet)
-              rowEntry.append(race_name)
-              race_entry.append(rowEntry)
-            else:   
-              #tempEl2 = wait.until(EC.presence_of_element_located((By.XPATH, reserve_table_row_xpath)))
-              #reserve_table_rows = tempEl2
-              tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
-              table_rows = tempTableEl
-            #if (check_exists_by_xpath(race_name_xpath)):
-              #tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
-              #race_name = (tempEl.text)
-            if (check_exists_by_xpath(reserve_table_row_xpath)):
-              #tempEl2 = wait.until(EC.presence_of_element_located((By.XPATH, reserve_table_row_xpath)))
-              #reserve_table_rows = tempEl2
-              tempTableEl2 = wait.until(EC.presence_of_all_elements_located((By.XPATH, reserve_table_row_xpath)))
-              reserve_table_rows = tempTableEl2
+        #     #if (check_exists_by_xpath(race_name_xpath)):
+        #       #tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
+        #       #race_name = (tempEl.text)
+        #     if not (check_exists_by_xpath(table_row_xpath)):
+        #       rowEntry = []
+        #       rowEntry.append(meet)
+        #       rowEntry.append(race_name)
+        #       race_entry.append(rowEntry)
+        #     else:   
+        #       #tempEl2 = wait.until(EC.presence_of_element_located((By.XPATH, reserve_table_row_xpath)))
+        #       #reserve_table_rows = tempEl2
+        #       tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
+        #       table_rows = tempTableEl
+        #     #if (check_exists_by_xpath(race_name_xpath)):
+        #       #tempEl = wait.until(EC.presence_of_element_located((By.XPATH, race_name_xpath)))
+        #       #race_name = (tempEl.text)
+        #     if (check_exists_by_xpath(reserve_table_row_xpath)):
+        #       #tempEl2 = wait.until(EC.presence_of_element_located((By.XPATH, reserve_table_row_xpath)))
+        #       #reserve_table_rows = tempEl2
+        #       tempTableEl2 = wait.until(EC.presence_of_all_elements_located((By.XPATH, reserve_table_row_xpath)))
+        #       reserve_table_rows = tempTableEl2
 
 
             
-            table_rows = driver.find_elements_by_xpath(table_row_xpath)
-            race_name += 1
-            race_standby = "正選"
-            for row in table_rows:
-              rowEntry = []
+        #     table_rows = driver.find_elements_by_xpath(table_row_xpath)
+        #     race_name += 1
+        #     race_standby = "正選"
+        #     for row in table_rows:
+        #       rowEntry = []
 
-              rowEntry.append(meet)
+        #       rowEntry.append(meet)
 
-              rowEntry.append(race_name)
-              rowEntry.append(race_standby) 
+        #       rowEntry.append(race_name)
+        #       rowEntry.append(race_standby) 
 
               
-              cols = row.find_elements_by_tag_name('td')
-              for col in cols:
-                rowEntry.append(col.text)
-              race_entry.append(rowEntry)
+        #       cols = row.find_elements_by_tag_name('td')
+        #       for col in cols:
+        #         rowEntry.append(col.text)
+        #       race_entry.append(rowEntry)
 
-            reserve_table_rows = driver.find_elements_by_xpath(reserve_table_row_xpath)
-            race_standby = "後備"
-            for reserverow in reserve_table_rows:
-              reserverowEntry = []
-              reserverowEntry.append(meet)
-              reserverowEntry.append(race_name)
-              reserverowEntry.append(race_standby) 
-              reservecols = reserverow.find_elements_by_tag_name('td')
-              for reservecol in reservecols:
-                reserverowEntry.append(reservecol.text)
-              race_entry.append(reserverowEntry)
+        #     reserve_table_rows = driver.find_elements_by_xpath(reserve_table_row_xpath)
+        #     race_standby = "後備"
+        #     for reserverow in reserve_table_rows:
+        #       reserverowEntry = []
+        #       reserverowEntry.append(meet)
+        #       reserverowEntry.append(race_name)
+        #       reserverowEntry.append(race_standby) 
+        #       reservecols = reserverow.find_elements_by_tag_name('td')
+        #       for reservecol in reservecols:
+        #         reserverowEntry.append(reservecol.text)
+        #       race_entry.append(reserverowEntry)
             
-        # Save file as csv
-        df = pd.DataFrame(race_entry)
-        print(df.head())
-        csv_data = df.to_csv("./Racescard_" + str(meet) + ".txt", index=False)
-        print("Saved " + str(meet))
+        # # Save file as csv
+        # df = pd.DataFrame(race_entry)
+        # print(df.head())
+        # csv_data = df.to_csv("./Racescard_" + str(meet) + ".txt", index=False)
+        # print("Saved " + str(meet))
 
   driver.quit()
