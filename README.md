@@ -10,12 +10,6 @@ Scraper [scraper.py] - A scraping tool that can be scheduled to scrape Hong Kong
 ### Completed
 
 Scrapers:
-  1. Racecard
-  2. Racecard info
-
-
-### Todo
-
-1. scraper_race_sectional
-2. scraper_race_results2
-3. scraper_race_result_info
+  1. Horse veterinary records
+  2. Penetrometer
+  3. Horse info (all)

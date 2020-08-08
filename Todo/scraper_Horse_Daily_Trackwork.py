@@ -50,8 +50,6 @@ Date, Horse, Trainer, Type, Racecourse/Track, Workouts, Gear
 """
 table_row_xpath = "/html/body/div/div[3]/table/tbody/tr"
 
-
-
 count = 0
 
 # Begin grabbing data
@@ -66,7 +64,8 @@ for meet in dates:
     driver.get(BASE_URL + meet)
     driver.implicitly_wait(20)
 
-    # Get BrandNo, Date, Type, Racecourse/Track, Workouts, Gear
+  # Get BrandNo, Date, Type, Racecourse/Track, Workouts, Gear
+  
   #if (check_exists_by_xpath(table_row_xpath)):
     #tempTableEl = wait.until(EC.presence_of_all_elements_located((By.XPATH, table_row_xpath)))
     #table_rows = tempTableEl
