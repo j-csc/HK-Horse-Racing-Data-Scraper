@@ -2,4 +2,4 @@ data
 .vscode/
 .ipynb_checkpoints/
 geckodriver.log
-Scrapers/
+Scrapers

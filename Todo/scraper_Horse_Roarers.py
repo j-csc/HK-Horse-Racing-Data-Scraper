@@ -71,11 +71,7 @@ if not os.path.isfile('Horse_Roarers_' + str(race_meet) + '.txt'):
     for col in cols:
       rowEntry.append(col.text)
     race_entry.append(rowEntry)
-    
 
-  
-
-        
   # Save file as csv
 
   #df = pd.DataFrame(race_entry)
