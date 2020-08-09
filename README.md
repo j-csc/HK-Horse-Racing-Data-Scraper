@@ -5,7 +5,26 @@
 The goal of this project is to help everyday gamblers uncover underlying patterns in past racing data to optimize their betting strategies.
 
 ## Tools
-Scraper [scraper.py] - A scraping tool that can be scheduled to scrape Hong Kong Jockey Club's website and extract data in a csv format
+Scraper [main.py] - A scraping tool that can be scheduled to scrape Hong Kong Jockey Club's website and extract data in a csv format
+
+## Project setup instructions
+
+- Open a terminal on the machine
+
+```bash
+
+# Clone repo
+git clone https://github.com/jaloo555/HK-Horse-Racing-Data-Scraper.git
+
+# Navigate to repo
+cd HK-Horse-Racing-Data-Scraper/
+
+# Install requirements
+pip install -r requirements.txt
+
+# Run program
+python main.py
+```
 
 ### Completed
 
@@ -14,9 +33,10 @@ Scrapers:
   2. Penetrometer
   3. Horse info (all)
   4. Horse roarers
+  5. Racecard
+  6. Racecard info
 
-### Todo
 
-Scrapers:
-  1. Racecard
-  2. Racecard info
+### Legacy
+
+Legacy scrapers are available in the old/ folder. 
