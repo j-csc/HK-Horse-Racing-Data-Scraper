@@ -2,4 +2,10 @@ data
 .vscode/
 .ipynb_checkpoints/
 geckodriver.log
-Scrapers
+todo
+config.py
+Screenshots
+scrapers
+Project*
+Sample*
+__pycache*
